@@ -7,17 +7,22 @@ public class Plus {
       //int result = i1 + i2;
       //System.out.println(i1 + " + " + i2 + " は " + result + " です");
 
-      //コンストラクタ
-      public Plus(int x, int y) {
-      this.x = x;
-      this.y = y;
-      this.z = doCalc(x, y);
-      }
+      int x;
+      int y;
 
+      //コンストラクタ
+      //public Plus(int x, int y) {
+      //this.x = x;
+      //this.y = y;
+      //}
+
+      Plus(int x, int y) {
+        this.x = x;
+        this.y = y;
+      }
       //足し算する処理
-      public int doCalc(int a, int b) {
-        int ans = a + b;
-        return ans;
+      public int doCalc() {
+        return x + y;
       }
   //  }
   }
