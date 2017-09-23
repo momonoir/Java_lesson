@@ -16,7 +16,7 @@ public class PrTxt {
 
             while ((ch = reader.read()) != -1) {  //ファイルの終わりでなかったら
                 //標準出力（画面）に出力
-                System.out.print(ch);//((char)ch);
+                System.out.print((char)ch);
 
                 //次の文字を読み込んで、繰り返し
                 //ch = reader.read();
